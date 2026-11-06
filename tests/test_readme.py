@@ -19,6 +19,9 @@ class ReadmeTest(unittest.TestCase):
         self.assertIn("## Task log", self.text)
         self.assertIn("- ABCT-1:", self.text)
 
+    def test_has_task_log_entry_for_deft_1(self):
+        self.assertIn("- DEFT-1:", self.text)
+
     def test_documents_how_to_run_tests(self):
         self.assertIn("python3 -m unittest discover -s tests", self.text)
 
