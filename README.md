@@ -13,3 +13,7 @@ ABCT-2 exercises the project creation flow. Run the checks with:
 ```sh
 python3 -m unittest discover -s tests
 ```
+
+## Task log
+
+- ABCT-1: README change to test the project creation flow end to end.
