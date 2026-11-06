@@ -17,3 +17,4 @@ python3 -m unittest discover -s tests
 ## Task log
 
 - ABCT-1: README change to test the project creation flow end to end.
+- DEFT-1: test1, Build stage run for project DEF TEST.
